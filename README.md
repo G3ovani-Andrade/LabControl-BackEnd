@@ -47,11 +47,8 @@ https://github.com/FullStack-Itacorubi/M3P-BackEnd-Squad1
 
 **Instalar as dependências**
 
-*npm install*
-
 **Rodar servidor de desenvolvimento local**
 
-*ng serve*
 
 ## Usuarios
 
