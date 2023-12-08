@@ -29,7 +29,7 @@ public class ConsultaController {
 
     @GetMapping("/{id}")
     public ResponseEntity<ConsultaResponseDTO> buscarConsultaPorId(@RequestHeader(value = "idUsuarioLogado",required = true)Long idUsuarioLogado,@PathVariable Long id) throws AccessDeniedException {
-        return new ResponseEntity<>(this.consultaService.buscarConsultaPorId(idUsuarioLogado,id),HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(this.consultaService.buscarConsultaPorId(idUsuarioLogado,id),HttpStatus.OK);
     }
 
     @GetMapping
